@@ -74,7 +74,9 @@ h4 {
 
 }
 
-.btn-branding {
+.btn-branding,
+.contact-box a
+ {
   
 border-radius: 25px;
 background:: rgba(255, 255, 255, 0.15);
@@ -82,6 +84,19 @@ padding: 8px 25px;
 border-color: rgb(88, 88, 88,0.15);         
             
        
+}
+
+.btn-branding a,
+footer a,
+
+{
+    text-decoration: none;
+    color:black;
+}
+.btn-branding a:hover,
+footer a:hover {
+    text-decoration: none;
+    color: var(--branding-color);
 }
 
 .btn-branding-outline {
@@ -131,7 +146,7 @@ border-color: rgb(88, 88, 88,0.15);
         border-radius: 16px;
     }
 
-        .contact-box a {
+         {
             line-height: 48px;
         }
 
