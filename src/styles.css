@@ -1,5 +1,6 @@
 :root{
     --branding-color:#ffaf79;
+    --background-color: #F1EEEC;
     --heading-font-family:'Montserrat';
     --default-font-family:'Fira Code',monospace;
 }
@@ -45,7 +46,7 @@ p{
 }
 .hero{
     text-align: center;
-    background-color:#F1EEEC;
+    background-color:var(--background-color);
     padding: 200px 20px;
 }
 .hero p{
@@ -128,6 +129,50 @@ border-color: rgb(88, 88, 88,0.15);
         border-radius: 16px;
     }
 
+    footer {
+        margin: 60px 0;
+    }
+    footer .email-link {
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+    text-align:center;
+    transition: all 120ms ease-in-out;
+    }
+
+    footer .email-link:hover {
+    color: var(--branding-color);
+    }
+
+footer .social-links a{
+width: 47px;
+height: 47px;
+border-radius: 50%;
+margin:0 15px;
+color: black;
+padding: 10px 14px;
+font-size: 18px;
+transition: all 120ms ease-in-out;
+
+
+}
+
+footer .social-links a {
+   
+    color:black;
+ 
+  
+
+}
+footer .social-links a:hover {
+    color: white;
+    background-color: var(--branding-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+
+
+
   @media (max-width:960px) {
       .project-description {
           padding: 0;
@@ -164,3 +209,4 @@ border-color: rgb(88, 88, 88,0.15);
               margin-left: 8px;
 
   }
+}
