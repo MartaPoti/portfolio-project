@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marta Potulska - portfolio</title>
+    <meta
+      name="description"
+      content="Marta Potulska is a professionally trained Web Developer and Designer. Open for participating in exciting projects."
+    />
+    <title>Marta Potulska - Frontend-Developer and Designer</title>
     <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -32,15 +36,18 @@
   </head>
   <body>
     <nav class="container d-flex justify-content-between">
-     <a href="/"> <img src="img/logo.png" alt="logo" class="logo d-none d-sm-block" /></a>
-     <a href="/"></a> <img src="img/logo-small.jpg" alt="logo" class="logo d-block d-sm-none" />
+      <a href="/">
+        <img src="img/logo.png" alt="logo" class="logo d-none d-sm-block"
+      /></a>
+      <a href="/"></a>
+      <img src="img/logo-small.jpg" alt="logo" class="logo d-block d-sm-none" />
       <ul>
         <li class="active">
-          <a href="/"> Home </a>
+          <a href="/" title="Homepage"> Home </a>
         </li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html" title="About">About</a></li>
+        <li><a href="/work.html" title="Work">Work</a></li>
+        <li><a href="/contact.html" title="Contact">Contact</a></li>
       </ul>
     </nav>
     <div class="hero">
@@ -67,7 +74,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Launch Project</a>
+            <a href="/work.html" class="btn btn-branding-outline" title="work"
+              >Launch Project</a
+            >
           </div>
         </div>
       </div>
@@ -81,7 +90,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Launch Project</a>
+            <a href="/work.html" class="btn btn-branding-outline" title="work"
+              >Launch Project</a
+            >
           </div>
         </div>
 
@@ -106,22 +117,55 @@
                 they live in Bookmarksgrove right at the coast of the Semantics,
                 a large language ocean. A small river named Duden flows by
               </p>
-              <a href="#" class="btn btn-branding-outline">Launch Project</a>
+              <a href="/work.html" class="btn btn-branding-outline" title="work"
+                >Launch Project</a
+              >
             </div>
           </div>
         </div>
       </div>
       <footer>
-        <div class="d-flex justify-content-center  mb-3">
-        
-        <a href="mailto:marta@gmail.com" class="email-link">marta@gmail.com</a>
+        <div class="contact-box justify-content-around mb-4 d-none d-lg-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div class="centered-element">
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="contact"
+              class="centered-element"
+            >
+              Contact me</a
+            >
+          </div>
         </div>
-        <div class="social-links d-flex  justify-content-center">
 
-          <a href="https:instagram.com/marta"><i class="fa-brands fa-instagram text-center"></i></a>
-          <a href="https:twitter.com/marta"><i class="fa-brands fa-twitter text-center"></i></a>
-          <a href="http:github.com/marta"><i class="fa-brands fa-github text-center"></i></a>
-      </div>
+        <div>
+          <div class="d-flex justify-content-center mb-3">
+            <a href="mailto:marta@gmail.com" class="email-link"
+              >marta@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https:instagram.com/marta" target="_blank" title="instagram"
+            ><i class="fa-brands fa-instagram text-center"></i
+          ></a>
+          <a href="https:twitter.com/marta" target="_blank"
+            ><i class="fa-brands fa-twitter text-center"></i
+          ></a>
+          <a href="http:github.com/marta" target="_blank" title="github"
+            ><i class="fa-brands fa-github text-center"></i
+          ></a>
+        </div>
+        <p class="text-center mt-3">
+          This project was coded by Marta and is
+          <a href="https://github.com/MartaPoti/portfolio-project"
+            >open-sourced.</a
+          >
+        </p>
       </footer>
     </div>
   </body>

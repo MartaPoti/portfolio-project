@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="description" content="Marta Potulska is a professionally trained Web Developer and Designer. Open for participating in exciting projects.">
     <title>Marta Potulska - portfolio</title>
     <!-- Latest compiled and minified CSS -->
     <link
@@ -31,7 +32,7 @@
     />
   </head>
   <body>
-     <nav class="container d-flex justify-content-between">
+    <nav class="container d-flex justify-content-between">
       <a href="/">
         <img src="img/logo.png" alt="logo" class="logo d-none d-sm-block"
       /></a>
@@ -40,11 +41,11 @@
       /></a>
       <ul>
         <li>
-          <a href="/"> Home </a>
+          <a href="/" title="homepage"> Home </a>
         </li>
-        <li><a href="/about.html">About</a></li>
-        <li class="active"><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html" title="about">About</a></li>
+        <li class="active"><a href="/work.html" title="work">Work</a></li>
+        <li><a href="/contact.html" title="contact">Contact</a></li>
       </ul>
     </nav>
     <div class="content">
@@ -91,17 +92,31 @@
           </div>
         </div>
       </div>
-       <footer>
-        <div class="d-flex justify-content-center  mb-3">
-        
-        <a href="mailto:marta@gmail.com" class="email-link">marta@gmail.com</a>
+       <footer class="container">
+                <div>
+          <div class="d-flex justify-content-center mb-3">
+            <a href="mailto:marta@gmail.com" class="email-link"
+              >marta@gmail.com</a
+            >
+          </div>
         </div>
-        <div class="social-links d-flex  justify-content-center">
-
-          <a href="https:instagram.com/marta"><i class="fa-brands fa-instagram text-center"></i></a>
-          <a href="https:twitter.com/marta"><i class="fa-brands fa-twitter text-center"></i></a>
-          <a href="http:github.com/marta"><i class="fa-brands fa-github text-center"></i></a>
-      </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https:instagram.com/marta" target="_blank"
+            ><i class="fa-brands fa-instagram text-center"></i
+          ></a>
+          <a href="https:twitter.com/marta" target="_blank"
+            ><i class="fa-brands fa-twitter text-center"></i
+          ></a>
+          <a href="http:github.com/marta" target="_blank"
+            ><i class="fa-brands fa-github text-center"></i
+          ></a>
+        </div>
+        <p class="text-center mt-3">
+          This project was coded by Marta and is
+          <a href="https://github.com/MartaPoti/portfolio-project"
+            >open-sourced.</a
+          >
+        </p>
       </footer>
     </div>
   </body>
