@@ -3,6 +3,37 @@
     --heading-font-family:'Montserrat';
     --default-font-family:'Fira Code',monospace;
 }
+.logo {
+    max-height: 40px;
+}
+
+nav {
+    padding:20px 0;
+    
+}
+nav ul{
+    padding:0;
+    margin: 0;
+}
+
+nav li {
+display:inline;
+list-style-type: none;
+line-height: 42px;
+margin-left: 15px;
+
+}
+nav a {
+    text-decoration: none;
+    color: rgb(62, 62, 62);
+    transition: all 120ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: #ffaf79;
+    text-decoration: none;
+}
 
 h1,h2,h3,h4,h5{
     font-family: var(--heading-font-family)
@@ -126,4 +157,10 @@ border-color: rgb(88, 88, 88,0.15);
       .content h1 {
           margin: 0;
       }
+
+          nav li {
+              
+              font-size: 18px;
+              margin-left: 8px;
+
   }
