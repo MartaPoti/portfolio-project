@@ -205,6 +205,9 @@ footer .social-links a:hover {
 
 
   @media (max-width:960px) {
+    .container {
+        max-width: 100%;
+    }
       .project-description {
           padding: 0;
           text-align: center;
@@ -246,3 +249,4 @@ footer .social-links a:hover {
   .contact-box h1{
     font-size: 18px;
 }
+  }
