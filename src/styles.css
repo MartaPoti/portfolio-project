@@ -92,7 +92,7 @@ footer a,
 
 {
     text-decoration: none;
-    color:black;
+   
 }
 .btn-branding a:hover,
 footer a:hover {
@@ -147,8 +147,16 @@ footer a:hover {
         border-radius: 16px;
     }
 
-         {
-            line-height: 48px;
+         
+        .links {
+            text-decoration: none;
+            color:black;
+
+        }
+
+        .links:hover {
+            color: var(--branding-color);
+            text-decoration: none;
         }
 
     footer {
